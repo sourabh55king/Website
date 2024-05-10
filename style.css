@@ -13,14 +13,14 @@
     background: #f9f9f9;
 }
 #logo{
-    font-size: 36px;
-    font-weight: 550;
+    font-size: 40px;
+    font-weight: 750;
     color: black;
     text-shadow: 0px 1px 1px black;
     margin-bottom: 5px;
 }
 #logo span{
-    color: #ffa500;
+    color: #0ded32;
 }
 .navbar-toggler span{
     color: #ffa500;
@@ -38,7 +38,7 @@
 }
 .nav-item .nav-link:hover{
     background: #ffa500;
-    color: white;
+    color: rgb(232, 226, 226);
 }
 #navbar form button{
     background: orange;
@@ -51,7 +51,7 @@
 .home{
     width: 100%;
     height: 90vh;
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(.//images/bg\ imggg.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(./images/trvl\ bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -60,40 +60,40 @@
     padding-top: 200px;
 }
 .home .content h5{
-    color: white;
+    color: rgb(230, 238, 232);
     font-size: 38px;
     font-weight: 550;
     text-shadow: 0px 1px 1px black;
 }
 .home .content h1{
-    color: white;
-    font-size: 70px;
-    font-weight: 550;
+    color: rgb(255, 251, 251);
+    font-size: 90px;
+    font-weight: 650;
     text-shadow: 0px 1px 1px black;
     margin-top: 5px;
 }
 .changecontent::after{
     content: ' ';
-    color: #ffa500;
+    color: #eab40f;
     text-shadow: 0px 1px 1px black;
     animation: changetext 10s infinite linear;
 }
 @keyframes changetext{
     0%{content: "France";}
-    10%{content: "Spain";}
+    10%{content: "korea";}
     20%{content: "United States";}
     30%{content: "China";}
     40%{content: "India";}
     50%{content: "Pakistan";}
     60%{content: "Italy";}
     70%{content: "Turkey";}
-    80%{content: "Mexico";}
+    80%{content: "singapore";}
     90%{content: "Germany";}
     100%{content: "United kingdom";}
 } 
 .home .content p{
-    color: white;
-    font-size: 15px;
+    color: rgb(238, 237, 244);
+    font-size: 17px;
     font-weight: 600;
     text-shadow: 0px 1px 1px black;
     margin-bottom: 30px;
@@ -101,7 +101,7 @@
 }
 .home .content a{
     padding: 10px;
-    background: white;
+    background: rgb(241, 242, 239);
     color: black;
     letter-spacing: 2px;
     font-weight: 550;
@@ -196,12 +196,12 @@
 /* Section Packages Start */
 .main-txt h1{
     text-align: center;
-    margin-top: 30px;
-    font-weight: 600;
+    margin-top: 120px;
+    font-weight: 500;
     text-shadow: 0px 1px 1px black;
 }
 .main-txt h1 span{
-    color: #ffa500;
+    color: #0ad236;
 }
 .packages .card{
     border-radius: 5px;
